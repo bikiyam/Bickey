@@ -1,5 +1,11 @@
 body{
-    background-color: #1a1a1a;
+    background-color: #000000;
     overflow-x: hidden;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffffff;
 }
+
+::-webkit-scrollbar {
+    display: none;
+  }
+

@@ -4,6 +4,8 @@ type IslandComponent<T extends DefineComponent> = T & DefineComponent<{}, {refre
 interface _GlobalComponents {
       'Button': typeof import("../components/Button/button.vue")['default']
     'Tooltip': typeof import("../components/Tooltip/tooltip.vue")['default']
+    'Ending': typeof import("../components/ending.vue")['default']
+    'Hero': typeof import("../components/hero.vue")['default']
     'HomeItemcard': typeof import("../components/home/itemcard.vue")['default']
     'MainInput': typeof import("../components/main/Input.vue")['default']
     'MainInputbutton': typeof import("../components/main/inputbutton.vue")['default']
@@ -34,6 +36,8 @@ interface _GlobalComponents {
     'NuxtRouteAnnouncer': IslandComponent<typeof import("../node_modules/nuxt/dist/app/components/server-placeholder")['default']>
       'LazyButton': typeof import("../components/Button/button.vue")['default']
     'LazyTooltip': typeof import("../components/Tooltip/tooltip.vue")['default']
+    'LazyEnding': typeof import("../components/ending.vue")['default']
+    'LazyHero': typeof import("../components/hero.vue")['default']
     'LazyHomeItemcard': typeof import("../components/home/itemcard.vue")['default']
     'LazyMainInput': typeof import("../components/main/Input.vue")['default']
     'LazyMainInputbutton': typeof import("../components/main/inputbutton.vue")['default']
@@ -70,6 +74,8 @@ declare module 'vue' {
 
 export const Button: typeof import("../components/Button/button.vue")['default']
 export const Tooltip: typeof import("../components/Tooltip/tooltip.vue")['default']
+export const Ending: typeof import("../components/ending.vue")['default']
+export const Hero: typeof import("../components/hero.vue")['default']
 export const HomeItemcard: typeof import("../components/home/itemcard.vue")['default']
 export const MainInput: typeof import("../components/main/Input.vue")['default']
 export const MainInputbutton: typeof import("../components/main/inputbutton.vue")['default']
@@ -100,6 +106,8 @@ export const NuxtIsland: typeof import("../node_modules/nuxt/dist/app/components
 export const NuxtRouteAnnouncer: IslandComponent<typeof import("../node_modules/nuxt/dist/app/components/server-placeholder")['default']>
 export const LazyButton: typeof import("../components/Button/button.vue")['default']
 export const LazyTooltip: typeof import("../components/Tooltip/tooltip.vue")['default']
+export const LazyEnding: typeof import("../components/ending.vue")['default']
+export const LazyHero: typeof import("../components/hero.vue")['default']
 export const LazyHomeItemcard: typeof import("../components/home/itemcard.vue")['default']
 export const LazyMainInput: typeof import("../components/main/Input.vue")['default']
 export const LazyMainInputbutton: typeof import("../components/main/inputbutton.vue")['default']
