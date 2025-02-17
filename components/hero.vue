@@ -3,7 +3,7 @@
         <div class="flex items-center w-full h-full justify-between">
             <div class="pt-[600px] text-start w-[800px]">
                 <h1 class="text-[60px] font-bold leading-9">EMBRACING ANCIENTS</h1>
-                <p class="text-gray-300 mt-4">A passionate Architect and UI/UX Designer shaping spaces and digital experiences with creativity and purpose. Driven by innovation, I craft designs that blend aesthetics with functionality—whether in architecture or user-centered digital products. Let’s build something extraordinary together!</p>
+                <p class="text-gray-300 mt-4">A passionate UI/UX Designer and Video Editor shaping digital experiences with creativity and purpose. Driven by innovation, I craft designs that blend aesthetics with functionality—whether in architecture or user-centered digital products. Let’s build something extraordinary together!</p>
             </div>
             <div class="align-bottom pt-[700px] flex gap-3">
                 <nuxt-link to="https://www.instagram.com/bikiyam__">

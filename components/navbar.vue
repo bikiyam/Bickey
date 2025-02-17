@@ -4,8 +4,8 @@
 
 <template>
     <div class=" fixed w-full py-8 px-9 align-middle bg-transparent flex justify-between">
-        <div>
-            <h1 class=" text-xl font-bold leading-tight">KIHLOT HAGERBIGEGN</h1>
+        <div class="">
+            <h1 class=" text-xl font-bold font-[Onest] leading-tight">KIHLOT HAGERBIGEGN</h1>
             <h1 class=" text-[15px] font-light text-gray-300">Architect / UI/UX Designer / Video Editor </h1>
         </div>
         <div class="flex gap-7 pt-1">
