@@ -3,16 +3,15 @@
 
 
 <template>
-    <div class=" fixed w-full py-8 px-9 align-middle bg-transparent flex justify-between">
-        <div class="">
-            <h1 class=" text-xl font-bold font-[Onest] leading-tight">KIHLOT HAGERBIGEGN</h1>
-            <h1 class=" text-[15px] font-light text-gray-300">Architect / UI/UX Designer / Video Editor </h1>
-        </div>
-        <div class="flex gap-7 pt-1">
-            <h1 class=" text-[18px] font-normal ">Portfolio</h1>
-            <h1 class=" text-[18px] font-normal ">Contact</h1>
+    <div class=" h-[10vh] w-full py-8 px-9 align-middle bg-transparent flex justify-between">
+        <h1 class=" text-2xl font-thin font-[Pacifico]">Bickey</h1>
+        <div class="flex gap-7 pt-1 text-[16px] font-light">
+            <NuxtLink to="/portfolio">
+                <h1>Portfolio</h1>
+            </NuxtLink>
+            <h1>Contact</h1>
             <div class=" h-16 w-40 text-center rounded-full ">
-                <h1 class=" text-[18px] font-normal bg-white text-black ">Download CV</h1>
+                <h1 class=" bg-white text-black ">Download CV</h1>
             </div>
         </div>
     </div>

@@ -1,11 +1,17 @@
 <template>
-    <div class=" h-[100vh] align-middle px-9">
-        <div class="flex items-center w-full h-full justify-between">
-            <div class="pt-[600px] text-start w-[800px]">
-                <h1 class="text-[60px] font-bold leading-9">EMBRACING ANCIENTS</h1>
-                <p class="text-gray-300 mt-4">A passionate UI/UX Designer and Video Editor shaping digital experiences with creativity and purpose. Driven by innovation, I craft designs that blend aesthetics with functionality—whether in architecture or user-centered digital products. Let’s build something extraordinary together!</p>
+    <div class=" h-[90vh] align-middle px-9 ">
+        <div class="flex items-center w-full h-[100vh] justify-between">
+            <div class="text-start w-[800px] justify-end">
+                <div class="flex flex-col justify-center text-start h-[50vh] pl-16"> <!-- Use flex and center items -->
+                    <h1 class=" text-[60px] font-bold leading-9">KIHLOT HAGERBIGEGN</h1>
+                    <h1 class="text-gray-300 mt-4">Architect / UI/UX Designer / Video Editor</h1>
+                </div>
+                <div class=" flex flex-col justify-end h-full bg-transparent">
+                    <h1 class="text-[23px] font-semibold font-[Onest] leading-tight">EMBRACING ANCIENTS</h1>
+                    <p class="text-[17px] font-extralight text-gray-300">A passionate UI/UX Designer and Video Editor shaping digital experiences with creativity and purpose. Driven by innovation, I craft designs that blend aesthetics with functionality—whether in architecture or user-centered digital products. Let’s build something extraordinary together!</p>
+                </div>
             </div>
-            <div class="align-bottom pt-[700px] flex gap-3">
+            <div class="gap-3 flex flex-col justify-end">
                 <nuxt-link to="https://www.instagram.com/bikiyam__">
                     <svg  xmlns="http://www.w3.org/2000/svg"  width="32"  height="32"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-instagram text-white"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 8a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" /><path d="M9 12a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" /><path d="M16.5 7.5v.01" /></svg>
                 </nuxt-link>
