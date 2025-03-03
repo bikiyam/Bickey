@@ -1,5 +1,5 @@
 <template>
-    <div class=" h-[90vh] align-middle px-9 ">
+    <div class=" h-[90vh] align-middle px-12 ">
         <div class="flex items-center w-full h-[100vh] justify-between">
             <div class="text-start w-[800px] justify-end">
                 <div class="flex flex-col justify-center text-start h-[50vh] pl-16"> <!-- Use flex and center items -->
@@ -7,8 +7,8 @@
                     <h1 class="text-gray-300 mt-4">Architect / UI/UX Designer / Video Editor</h1>
                 </div>
                 <div class=" flex flex-col justify-end h-full bg-transparent">
-                    <h1 class="text-[23px] font-semibold font-[Onest] leading-tight">EMBRACING ANCIENTS</h1>
-                    <p class="text-[17px] font-extralight text-gray-300">A passionate UI/UX Designer and Video Editor shaping digital experiences with creativity and purpose. Driven by innovation, I craft designs that blend aesthetics with functionality—whether in architecture or user-centered digital products. Let’s build something extraordinary together!</p>
+                    <h1 class="text-[23px] font-semibold font-[Onest] leading-tight">EMBRACING THE ANCIENTS</h1>
+                    <p class="text-[15px] font-extralight text-gray-300">A passionate UI/UX Designer and Video Editor shaping digital experiences with creativity and purpose. Driven by innovation, I craft designs that blend aesthetics with functionality—whether in architecture or user-centered digital products. Let’s build something extraordinary together!</p>
                 </div>
             </div>
             <div class="gap-3 flex flex-col justify-end">
