@@ -4,7 +4,9 @@
 
 <template>
     <div class=" h-[10vh] w-full py-8 px-12 align-middle bg-transparent flex justify-between">
-        <h1 class=" text-[20px] font-extralight font-[Pacifico]">Bickey</h1>
+        <NuxtLink to="/">
+            <h1 class=" text-[20px] font-extralight font-[Pacifico]">Bickey</h1>
+        </NuxtLink>
         <div class="flex gap-9 pt-1 text-[15px] font-light">
             <NuxtLink to="/portfolio">
                 <h1>Portfolio</h1>
