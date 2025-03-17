@@ -21,44 +21,48 @@
   
     <!-- Content sections for each tab -->
     <div class="text-white">
-      <div class="tab-content mt-4">
+      <div class="tab-content mt-4 px-60">
         <div v-if="selectedTab === 'uiux'" class="content p-5 bg-transparent rounded-lg shadow-md">
-          <div class="px-60">
+          <div>
             <h2 class="text-3xl font-semibold mb-4">UI / UX Design Content</h2>
             <p>This is the UI/UX Design content that will be shown when the UI / UX Design tab is selected.</p>
           </div>
         </div>
+
+
         <div v-if="selectedTab === 'videoedit'" class="content p-5 bg-transparent rounded-lg shadow-md">
-          <div class="px-60">
+          <div>
             <h2 class="text-3xl font-semibold mb-4">Video Editing Content</h2>
             <p>This is the Video Editing content that will be shown when the Video Editing tab is selected.</p>
           </div>
 
-          <div class=" flex justify-center mt-20 gap-12">
-            <video class=" w-[640px] h-[500px] border-2" controls>
+          <div class=" flex justify-center mt-20 gap-12 w-full">
+            <video class=" w-full h-[500px] border-2" controls>
               <source src="/assets/videos/Amenmodeling1.mp4" type="video/mp4">
               Your browser does not support the video tag.
             </video>
-            <video class=" w-[640px] h-[500px] border-2" controls>
+            <video class=" w-full h-[500px] border-2" controls>
               <source src="/assets/videos/Amenmodeling.mp4" type="video/mp4">
               Your browser does not support the video tag.
             </video>
           </div>
           <div class=" flex justify-center mt-20 gap-12">
-            <video class=" w-[1320px] h-[700px] border-2" controls>
+            <video class=" w-full h-[700px] border-2" controls>
               <source src="/assets/videos/Gbhospital.mp4" type="video/mp4">
               Your browser does not support the video tag.
             </video>
           </div>
           <div class=" flex justify-center mt-20 gap-12">
-            <video class=" w-[640px] h-[500px] border-2" controls>
+            <video class=" w-full h-[500px] border-2" controls>
                 <source src="/assets/videos/Addismarble.mp4" type="video/mp4">
                 Your browser does not support the video tag.
             </video>
           </div>
         </div>
+
+
         <div v-if="selectedTab === 'ytauth'" class="content p-5 bg-transparent rounded-lg shadow-md">
-          <div class="px-60">
+          <div>
             <h2 class="text-3xl font-semibold mb-4">YouTube Automations Content</h2>
             <p>This is the YouTube Automations content that will be shown when the YouTube Automations tab is selected.</p>
           </div>
