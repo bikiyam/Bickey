@@ -9,6 +9,9 @@
         </NuxtLink>
         <div class="flex gap-9 pt-1 text-[15px] font-light">
             <NuxtLink to="/portfolio">
+                <h1>About</h1>
+            </NuxtLink>
+            <NuxtLink to="/portfolio">
                 <h1>Portfolio</h1>
             </NuxtLink>
             <h1>Contact</h1>
