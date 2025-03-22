@@ -8,7 +8,7 @@
             <h1 class=" text-[20px] font-extralight font-[Pacifico]">Bickey</h1>
         </NuxtLink>
         <div class="flex gap-9 pt-1 text-[15px] font-light">
-            <NuxtLink to="/portfolio">
+            <NuxtLink to="/about">
                 <h1>About</h1>
             </NuxtLink>
             <NuxtLink to="/portfolio">

@@ -2,6 +2,7 @@
     <Navbar/>
   
     <!-- Tabs (Radio buttons) -->
+    <h1 class=" text-7xl leading-relaxed font-black text-center mb-10">Portfolio</h1>
     <div class="flex justify-center items-center">
       <div class="radio-inputs flex rounded-lg bg-gray-200 p-1 w-[300px] text-sm shadow-md">
         <label class="radio flex-1 text-center">
